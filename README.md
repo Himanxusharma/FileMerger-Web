@@ -4,7 +4,7 @@
 
 
 
-##  Functionalities –
+##  Functionalities 
 - It can merge 2 files based on unique key.
 - It should have an option to choose the columns to show in merged file.
 - It should have an option to provide encrypted files.
@@ -15,7 +15,7 @@
 
 
 
-##  Technologies used –
+##  Technologies used 
 - HTML/CSS for UI develop (TODO: use React js)
 - JavaScript for UI responsiveness and event handling
 - Node js or Java for backend development
@@ -23,6 +23,6 @@
 
 
 
-##  Data Flow Diagram –
+##  Data Flow Diagram 
 
 ![DFD (1)](https://user-images.githubusercontent.com/66838782/231953347-9e734873-7e13-4d4a-b166-adbd3a793021.svg)
