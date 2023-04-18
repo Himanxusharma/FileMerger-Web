@@ -98,7 +98,7 @@ const navSlide = () => {
           const extension =     file.name.split('.').pop().toLowerCase();
     const validExtensions = ['csv', 'txt'];
       if (!validExtensions.includes(extension)) {
-        alert('Invalid file extension');
+        alert('Only csv and txt files are allowed.');
         return;
       }
       
