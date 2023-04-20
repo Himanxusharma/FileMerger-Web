@@ -1,4 +1,4 @@
-/* * {
+ /* * {
     box-sizing: border-box;
   }
   
@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
   } */
-  
+  /*
   .t-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,5 +48,24 @@
     td {
       padding: 5px;
     }
+  }
+   */
+
+
+   table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
   }
   

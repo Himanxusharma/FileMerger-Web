@@ -184,3 +184,23 @@ const navSlide = () => {
   });
   
 });}
+
+
+//  file upload
+const fileUpload = document.getElementById("file-upload");
+const customFileUpload = document.querySelector(".custom-file-upload");
+
+customFileUpload.addEventListener("click", function () {
+  fileUpload.click();
+});
+
+fileUpload.addEventListener("change", function () {
+  const fileName = this.value.split("\\").pop();
+  if (fileName) {
+    customFileUpload.innerHTML = fileName;
+  } else {
+    customFileUpload.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Choose File';
+  }
+});
+
+
